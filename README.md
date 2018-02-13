@@ -1,2 +1,9 @@
 # sistema_fact_php_js_ajax_html5
-sistema de facturacion php7 con bases de datos mysql con controles de usuario y roles
+Sistema de Facturacion:
+
+comprende sistema MVC
+tiene validaciones con javaScript
+maneja sessiones con PHP7
+boostrap3 con html5
+lleva el control de inventario
+
