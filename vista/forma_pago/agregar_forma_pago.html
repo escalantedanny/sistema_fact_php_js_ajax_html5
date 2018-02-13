@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="../../css/estilo.css">
+	<title>Agregar Forma de Pago</title>
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<script type="text/javascript" src="../../js/forma_pago/forma_pago.js"></script>
+</head>
+<body>
+
+	<form action="../../controlador/forma_pago/controlador_forma_pago.php" method="POST" id="for_for">
+
+		<input type="hidden" name="accion" value="agregar">
+
+		<div class="titulo letra_blanca altura30 pocision">Agregar Forma de Pago</div>
+<!--
+		<div class="izq">
+			<label>
+					Codigo:
+			</label>
+		</div>
+		<div class="der">
+			<input type="text" name="cod_for" id="cod_for" size="15" maxlength="11">
+		</div>
+-->
+		<div class="izq">
+			<label>Nombre</label>
+		</div>
+		<div class="der">
+			<input type="text" name="nom_for" id="nom_for" size="30" maxlength="25">
+		</div>
+
+		<div class="izq">
+			<label>Estatus</label>
+		</div>
+		<div class="der">
+			<input type="radio" name="est_for" id="est_for" value="A" checked="">Activo
+			<input type="radio" name="est_for" id="est_for" value="I">Inactivo
+		</div>
+		
+		<div class="pie_formulario pocision letra_blanca">
+			<input type="button" name="bot_gua" value="guardar" onclick="validar_forma_pago()">
+		</div>
+
+	</form>	
+</body>
+</html>

@@ -1,0 +1,19 @@
+crear index.php que contenga
+			 
+
+			 implica: 
+			 	pantalla
+			 	controlador
+			 	redireccionamiento
+					header("location: menu.php")
+					variable de session
+			 hacer pantalla de ingreso de usuario  (inicio de sesion)
+
+hacer el archivo MENU.PHP
+		select a permiso donde el usuario sea la variable $_SESSION
+		HACER UN SALTO CON LA TABLA USUARIO Y MODULO
+
+
+
+
+nota: 		enviar como hidden los codigos de las vistass

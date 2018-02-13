@@ -1,0 +1,256 @@
+*
+{
+	font-family: 'Poiret One', cursive;
+}
+.contenedor	
+{
+	/*background-color: #FF0000;*/
+	height: 1000px;
+	width: 95%;
+	margin: 0px auto;
+}
+
+.superior
+{
+	/*ckground-color: #f1f1f1;*/
+	height: 80px;
+	rder: 1px dotted;
+	/**/background-image: url(../img/logo.jpg);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.menu
+{	height: 780px;
+	width: 20%;
+	float: left;
+}	
+
+
+.centro
+{
+
+	height: 800px;
+	width: 79%;
+	float: left;
+}	
+	
+
+.pie   /* selector de clase*/
+{
+	height: 100px;
+	clear: both; /* limpia o recetea la variable y sigue el pocisionamiendo normal*/
+}	
+
+
+ul /* etiqueta */
+{
+	list-style: none;
+	padding: 0px;
+}
+/* 
+#pagina 
+{
+
+
+}
+*/
+.titulo, input[type="submit"], input[type="button"]/*  selecciona todos los inputs de sean de tipo submit */
+{
+	background-color: #cc3333;
+	font-weight: bold;
+}
+
+.letra_blanca, input[type="submit"], input[type="button"]
+{
+	color: #ffffff;
+}
+
+.altura30, input[type="submit"], input[type="button"]
+{
+	height: 30px;
+	line-height: 30px;  /*  alinea verticalmente 12 sola linea del texto el tamaño debe ser igual*/
+}
+
+.pocision
+{
+	text-align: center;
+}
+
+.derechaText
+{
+	text-align: right;
+}
+
+.izquierdaText
+{
+	text-align: left;
+}
+
+.opcion  /* quita lel color del }hipervinculo */
+{
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #cccccc;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.opcion:hover
+{
+	background-color: #ffffff;
+	color: #cc3333;
+	font-weight: bold;
+}
+
+.menu a  /*selector descendente:; se lee todos los hiperbinvulos q esten en la clase menu  */
+{
+	color: #000000;
+}
+
+.menu a:hover
+{
+	color: #cc3333;
+}
+
+.opcion a
+{
+	display: block;
+}
+
+.izq
+{
+	width: 20%;
+}
+
+.der
+{
+
+	width: 80%;
+	
+}
+
+.izq, .der
+{
+	float: left;
+	background-color: #CCCCCC;
+	border-bottom: 1px solid;
+}
+
+.altura80
+{
+	height: 70px;
+	line-height: 70px;
+
+}
+
+textarea
+{
+	width: 80%;
+	height: 90%;
+}
+
+
+input[type="submit"], input[type="button"]
+{
+	border-radius: 25px;
+	border: 1px solid #CCCCCC;
+	margin-top: 30px;
+}
+
+input[type="text"], input[type="tel"], input[type="password"]
+{
+	border-radius: 15px;
+}
+
+#bot_gua:hover
+{
+	background-color: #ffffff;
+	color: #cc3333;
+	border: 1px solid #cc3333;
+	cursor: pointer;
+}
+
+.contenedor90
+{
+	width: 90%;
+	border: 2px solid #f1f1f1;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.alerta
+{
+	background-color: #ddd8d7;
+}
+
+
+.columna40
+{
+ 	width: 40%;
+}
+
+.columna20
+{
+	width: 20%;
+}
+
+.columna10
+{
+	width: 10%;
+}
+.columna30
+{
+	width: 30%;
+}
+
+.columna60
+{
+	width: 60%;
+}
+
+.columna80
+{
+	width: 80%;
+}
+
+.columna25
+{
+	width: 25%;
+}
+.contenedor_listado_grande span
+{
+	display: inline-block;  /* esta linea le dice al elemento span que se comprote como un elemento en bloque y no en liana 
+	para que no empiece al lado*/
+	float: left;
+}
+
+.ok
+{
+	background-color: #00ff00;	
+}
+
+.error
+{
+	background-color: red;	
+}
+
+.ok, .error
+{
+	color: #FFF;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.vacio
+{						  /* la palabra important PREDOMINA alguna class anterior*/
+	border: 1px solid red !important;
+}
+.titulo1{
+	background-color: blue;
+}
