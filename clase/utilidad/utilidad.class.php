@@ -14,8 +14,8 @@ class utilidad
    protected function ejecutar($sql)
    {
      
-      /* echo $sql;
-       
+      echo $sql;
+       /* 
       mysql_query recibe 2 parámetros.
       Parámetro 1: lo que quiero ejecutar en la base de datos
       Parámetro 2: el ticket de conexion con la base de datos

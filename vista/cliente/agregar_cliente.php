@@ -10,6 +10,7 @@
 </head>
 <body>
 <div class="contenedor90">
+	
 	<form action="../../controlador/cliente/controlador_cliente.php" method="POST" id="for_cli">
 
 	<input type="hidden" name="accion" value="agregar">

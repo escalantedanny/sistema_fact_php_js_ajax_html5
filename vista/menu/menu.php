@@ -46,9 +46,6 @@ if(isset($_SESSION['email']))
 					
 					<li class="titulo letra_blanca altura30 pocision" >Sesion</li>
 						<li class="opcion altura30 "><a href="../usuario/cerrar_sesion.php">Cerrar</a></li>
-									
-
-					
 
 				</ul>
 
