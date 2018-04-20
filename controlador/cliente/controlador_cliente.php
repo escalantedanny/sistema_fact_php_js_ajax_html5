@@ -1,5 +1,6 @@
 <?php
-	require("../../../curso_web_octubre/clase/cliente/cliente.class.php");
+	require("./../../clase/cliente/cliente.class.php");
+	
 	$obj_cli=new cliente;
 
 	$accion=$_REQUEST['accion'];

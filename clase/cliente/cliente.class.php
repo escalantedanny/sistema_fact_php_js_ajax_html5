@@ -1,5 +1,5 @@
 <?php
-require_once("../utilidad/utilidad.class.php");
+require_once("./../utilidad/utilidad.class.php");
 class cliente extends utilidad
 {
 
